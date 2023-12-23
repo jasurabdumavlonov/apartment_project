@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: 'Lato',serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0 24px 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.navbar .navbar-list {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.navbar-list li a:link, .navbar-list li a:visited {
+  color: #475658;
+}
+
+.btn-call {
+  display: inline-block;
+  padding: 12px 55px 15px 55px;
+  border-radius: 10px;
+  border: 1px solid #121761;
+}
+
+.section-red {
+  background: #D44B4B;
+  display: flex;
+  height: 536px;
+}
+
+.red-text {
+  color: #fff;
+}
+
+.red-txt {
+  display: flex;
+}
+
+.red-text p {
+  width: 670px;
+  font-size: 16px;
+  padding-top: 80px;
+}
+
+.red-text h2 {
+  width: 670px;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
+  margin-bottom: 30px;
+}
+
+.red-text span {
+text-decoration: underline;
+}
+
+.red-btn {
+  width: 670px;
+  padding: 10px 97px 15px 97px;
+  background-color: #fff;
+  color: #475658;
+  border-radius: 10px;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.cards {
+  width: 70%;
+  margin: 130px auto;
+  display: flex;
+  gap: 60px;
+}
+
+.main {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.main .text {
+  font-size: 45px;
+  font-weight: 700;
+  color: #03073c;
+  line-height: 60px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.main .text span {
+  color: #D44B4B;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  border-radius: 20px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+.bg-red {
+  background-color: #D44B4B;
+  width: 200px;
+  background-position: center;
+}
+
+.main-text {
+  margin-left: 68px;
+}
+
+.main-text .opros {
+  margin-top: 67px;
+  /* margin-left: 68px; */
+  font-size: 16px;
+  margin-bottom: 74px;
+}
+
+.main-text .opros span {
+  color: #D44B4B;
+}
+
+.opros-big {
+  color: #03073c;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.start-btn {
+  background-color: #D44B4B;
+  color: #fff;
+  padding: 20px 180px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 63px;
+}
+
+.pdf {
+  margin-bottom: 20px;
+}
+
+.list-group {
+  font-size: 16px;
+  color: #475658;
+  line-height: 26px;
+}
+
+.list-group li {
+  list-style: disc;
+  margin-bottom: 20px;
+}
